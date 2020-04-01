@@ -1,13 +1,22 @@
 import React from "react";
-import "./App.css";
+import "./Nav.css";
 import { Link } from "react-router-dom";
 
 export default class Nav extends React.Component {
+  state = {
+    visible: false
+  };
+  onClick() {
+    this.setState({ visible: true });
+  }
+
   render() {
     return (
-      <nav>
-        <h3>LOGO</h3>
+      <nav className="navbar">
         <ul className="nav-links">
+          <Link to="/">
+            <li>Home</li>
+          </Link>
           <Link to="/about">
             <li>About</li>
           </Link>

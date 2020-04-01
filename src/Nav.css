@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  overflow-x: hidden;
+  overflow-y: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1000;
+  text-decoration: none;
+}
+
+.nav-links {
+  width: 130px;
+  position: relative;
+  color: #33b5e5;
+  display: block;
+  list-style: none;
+  justify-content: space-around;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.nav-links :hover {
+  background: #428bca;
+  color: #eeeeee;
+  width: 100%;
+}
