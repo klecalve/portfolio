@@ -1,13 +1,16 @@
 import React from "react";
 import "./Home.css";
+import "./App.css";
 
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="bodyHome">
-        <div className="main">
+      <div className="bodyApp">
+        <div className="mainApp">
+          <h1>
+            Présentation de moi-même, ce que j'aime, ce que je veux devenir
+          </h1>
           <div className="container">
-            <h1> HOME PAGE </h1>
             <p>
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
 
-export default class About extends React.Component {
+export default class Linkedin extends React.Component {
   render() {
     return (
       <div className="bodyApp">
         <div className="mainApp">
-          <h1>container formation et pro + détails de chaque</h1>
+          <h1>Lien vers le linkedin (nouvel onglet)</h1>
+          <p>https://www.linkedin.com/in/klecalve/</p>
         </div>
       </div>
     );

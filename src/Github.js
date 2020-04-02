@@ -1,12 +1,13 @@
 import React from "react";
 import "./App.css";
 
-export default class About extends React.Component {
+export default class Github extends React.Component {
   render() {
     return (
       <div className="bodyApp">
         <div className="mainApp">
-          <h1>container formation et pro + détails de chaque</h1>
+          <h1>Lien vers le github (nouvel onglet)</h1>
+          <p>https://github.com/KalvinCleeve</p>
         </div>
       </div>
     );

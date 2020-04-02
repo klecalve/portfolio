@@ -6,26 +6,36 @@
   position: fixed;
   overflow-x: hidden;
   overflow-y: auto;
+  text-align: right;
   top: 0;
   left: 0;
   bottom: 0;
   z-index: 1000;
-  text-decoration: none;
+}
+
+.navbar ul {
+  margin: 0;
+  padding-left: 0;
 }
 
 .nav-links {
   width: 130px;
   position: relative;
-  color: #33b5e5;
   display: block;
   list-style: none;
   justify-content: space-around;
-  padding: 10px 10px;
-  text-decoration: none;
+}
+
+.nav-links li {
+  padding: 10px 10px 10px 10px;
 }
 
 .nav-links :hover {
   background: #428bca;
   color: #eeeeee;
-  width: 100%;
+}
+
+.nav-link-active {
+  background: #428bca;
+  color: #eeeeee !important;
 }
