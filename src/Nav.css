@@ -2,7 +2,6 @@
   background-color: #222;
   color: white;
   display: flex;
-  justify-content: space-around;
   position: fixed;
   overflow-x: hidden;
   overflow-y: auto;
@@ -23,7 +22,6 @@
   position: relative;
   display: block;
   list-style: none;
-  justify-content: space-around;
 }
 
 .nav-links li {

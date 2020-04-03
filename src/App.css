@@ -12,11 +12,32 @@
   margin: 10px;
 }
 
-.container {
-  margin: 0px 40px 0px 40px;
+.mainContainer {
+  display: grid;
+  justify-content: space-around;
+}
+.mainContainerTitle {
+  margin: 20px 0 10px 0;
 }
 
-.container p:last-child {
+.container {
+  max-width: 800px;
+  margin: 0px 20px 20px 20px;
+  padding: 10px;
+  border: solid grey 1px;
+  box-shadow: 3px 1px 10px lightgray;
+}
+
+.insideContainer {
+}
+
+.insideContainer h1 {
+}
+
+.insideContainer h2 {
+}
+
+.container:last-child {
   margin-bottom: 0;
 }
 

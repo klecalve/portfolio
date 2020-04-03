@@ -10,22 +10,23 @@ import Curriculum from "./Curriculum";
 import Linkedin from "./Linkedin";
 import Github from "./Github";
 
-function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Nav />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/Curriculum" component={Curriculum} />
-          <Route path="/Linkedin" component={Linkedin} />
-          <Route path="/Github" component={Github} />
-        </Switch>
-      </div>
-    </Router>
-  );
+export default class App extends React.Component {
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <Nav />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/Curriculum" component={Curriculum} />
+            <Route path="/Linkedin" component={Linkedin} />
+            <Route path="/Github" component={Github} />
+            <Route component={Home} />
+          </Switch>
+        </div>
+      </Router>
+    );
+  }
 }
-
-export default App;
