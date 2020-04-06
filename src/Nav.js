@@ -6,7 +6,7 @@ export default class Nav extends React.Component {
   render() {
     const mystyle = {
       color: "#33b5e5",
-      textDecoration: "none"
+      textDecoration: "none",
     };
 
     return (
@@ -19,7 +19,7 @@ export default class Nav extends React.Component {
             activeClassName="nav-link-active"
             className="nav-links"
           >
-            <li>HOME</li>
+            <li>SAVOIR-ÊTRE</li>
           </NavLink>
           <NavLink
             to="/about"
@@ -27,7 +27,7 @@ export default class Nav extends React.Component {
             activeClassName="nav-link-active"
             className="nav-links"
           >
-            <li>ABOUT</li>
+            <li>SAVOIR-FAIRE</li>
           </NavLink>
           <NavLink
             to="/contact"
@@ -35,7 +35,7 @@ export default class Nav extends React.Component {
             activeClassName="nav-link-active"
             className="nav-links"
           >
-            <li>CONTACT</li>
+            <li>CONTACTEZ-MOI</li>
           </NavLink>
           <NavLink
             to="/Curriculum"

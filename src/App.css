@@ -5,7 +5,7 @@
 }
 
 .bodyApp {
-  margin-left: 130px;
+  margin-left: 150px;
 }
 
 .mainApp {
@@ -21,20 +21,24 @@
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0px 20px 20px 20px;
   padding: 10px;
   border: solid grey 1px;
   box-shadow: 3px 1px 10px lightgray;
 }
 
-.insideContainer {
+.container h2 {
+  display: flex;
+  align-items: flex-start;
+  margin: 5px 5px 5px 20px;
 }
-
-.insideContainer h1 {
-}
-
-.insideContainer h2 {
+.container h3 {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 0 10px;
+  font-size: 0.9em;
+  color: grey;
 }
 
 .container:last-child {
