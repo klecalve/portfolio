@@ -6,8 +6,8 @@ export default class Linkedin extends React.Component {
     return (
       <div className="bodyApp">
         <div className="mainApp">
-          <h1>Lien vers le linkedin (nouvel onglet)</h1>
-          <p>https://www.linkedin.com/in/klecalve/</p>
+          <h1>LINKEDIN</h1>
+          <a href="https://www.linkedin.com/in/klecalve/" target="_blank">LINKEDIN</a>
         </div>
       </div>
     );

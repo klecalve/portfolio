@@ -6,8 +6,8 @@ export default class Github extends React.Component {
     return (
       <div className="bodyApp">
         <div className="mainApp">
-          <h1>Lien vers le github (nouvel onglet)</h1>
-          <p>https://github.com/kevinlecalve</p>
+          <h1>GITHUB</h1>
+          <a href="https://github.com/klecalve" target="_blank">GITHUB</a>
         </div>
       </div>
     );
