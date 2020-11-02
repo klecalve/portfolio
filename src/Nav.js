@@ -19,7 +19,7 @@ export default class Nav extends React.Component {
             activeClassName="nav-link-active"
             className="nav-links"
           >
-            <li>SAVOIR-ÊTRE</li>
+            <li>ACCUEIL</li>
           </NavLink>
           <NavLink
             to="/about"
@@ -27,7 +27,23 @@ export default class Nav extends React.Component {
             activeClassName="nav-link-active"
             className="nav-links"
           >
+            <li>SAVOIR-ÊTRE</li>
+          </NavLink>
+          <NavLink
+            to="/skills"
+            style={mystyle}
+            activeClassName="nav-link-active"
+            className="nav-links"
+          >
             <li>SAVOIR-FAIRE</li>
+          </NavLink>
+          <NavLink
+            to="/exemples"
+            style={mystyle}
+            activeClassName="nav-link-active"
+            className="nav-links"
+          >
+            <li>EXEMPLES</li>
           </NavLink>
           <NavLink
             to="/contact"
@@ -36,30 +52,6 @@ export default class Nav extends React.Component {
             className="nav-links"
           >
             <li>CONTACTEZ-MOI</li>
-          </NavLink>
-          <NavLink
-            to="/Curriculum"
-            style={mystyle}
-            activeClassName="nav-link-active"
-            className="nav-links"
-          >
-            <li>CV</li>
-          </NavLink>
-          <NavLink
-            to="/linkedin"
-            style={mystyle}
-            activeClassName="nav-link-active"
-            className="nav-links"
-          >
-            <li>LINKEDIN</li>
-          </NavLink>
-          <NavLink
-            to="/github"
-            style={mystyle}
-            activeClassName="nav-link-active"
-            className="nav-links"
-          >
-            <li>GITHUB</li>
           </NavLink>
         </ul>
       </nav>

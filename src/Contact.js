@@ -7,7 +7,7 @@ export default class Contact extends React.Component {
     return (
       <div className="bodyApp">
         <div className="mainApp">
-          <h1>formulaire qui envoie un mail</h1>
+          <h1>CONTACTEZ-MOI</h1>
           <div className="mainContainer">
             <div className="formContainer"></div>
           </div>
