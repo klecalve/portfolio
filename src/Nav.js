@@ -51,7 +51,7 @@ export default class Nav extends React.Component {
             activeClassName="nav-link-active"
             className="nav-links"
           >
-            <li>CONTACTEZ-MOI</li>
+            <li>CONTACT</li>
           </NavLink>
         </ul>
       </nav>

@@ -8,49 +8,6 @@ export default class Skills extends React.Component {
         <div className="mainApp">
           <h1>SAVOIR-FAIRE</h1>
           <div className="mainContainer">
-            <h1 className="mainContainerTitle">FORMATION</h1>
-            <div className="container">
-              <h2>Ecole O'clock / 2017 – 2018</h2>
-              <h3>Bac +2, Programmation / développeur informatique</h3>
-              <div className="insideContainer">
-                <p>
-                  Formation reconnue par l'Etat (équivalent bac +2) labellisée
-                  Grande Ecole du Numérique Durée de 5 mois (700h) intensifs
-                  pour devenir développeur web Tronc commun de 3 mois : -HTML5
-                  -JS -CSS3 -PHP -PHPmyAdmin -MySQL Spécialisation au choix d’ 1
-                  mois (ReactJS) Projet de professionnalisation d’ 1 mois
-                  (DESERTER)
-                </p>
-              </div>
-              <h2>Pigier NANTES / 2012 - 2013</h2>
-              <h3>BTS Professions Immobilières</h3>
-              <div className="insideContainer">
-                <p>
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum."
-                </p>
-              </div>
-              <h2>Lycée Albert CAMUS / 2012</h2>
-              <h3>Baccalauréat STG communication</h3>
-              <div className="insideContainer">
-                <p>
-                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum."
-                </p>
-              </div>
-            </div>
             <h1 className="mainContainerTitle">EXPERIENCE</h1>
             <div className="container">
               <h2>Developpeur web frontend ReactJS</h2>
@@ -96,6 +53,49 @@ export default class Skills extends React.Component {
                   Gestion d'équipe (5 à 20 personnes) Gestion budgétaire Garant
                   des règles de fonctionnement Relation clientèle -2014-2016
                   Employé polyvalent
+                </p>
+              </div>
+            </div>
+            <h1 className="mainContainerTitle">FORMATION</h1>
+            <div className="container">
+              <h2>Ecole O'clock / 2017 – 2018</h2>
+              <h3>Bac +2, Programmation / développeur informatique</h3>
+              <div className="insideContainer">
+                <p>
+                  Formation reconnue par l'Etat (équivalent bac +2) labellisée
+                  Grande Ecole du Numérique Durée de 5 mois (700h) intensifs
+                  pour devenir développeur web Tronc commun de 3 mois : -HTML5
+                  -JS -CSS3 -PHP -PHPmyAdmin -MySQL Spécialisation au choix d’ 1
+                  mois (ReactJS) Projet de professionnalisation d’ 1 mois
+                  (DESERTER)
+                </p>
+              </div>
+              <h2>Pigier NANTES / 2012 - 2013</h2>
+              <h3>BTS Professions Immobilières</h3>
+              <div className="insideContainer">
+                <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum."
+                </p>
+              </div>
+              <h2>Lycée Albert CAMUS / 2012</h2>
+              <h3>Baccalauréat STG communication</h3>
+              <div className="insideContainer">
+                <p>
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum."
                 </p>
               </div>
             </div>

@@ -9,7 +9,7 @@ export default class Home extends React.Component {
         <div className="mainApp">
           <h1>ACCUEIL</h1>
           <div className="wip">
-            /!\ Le site est en cours de developpement /!\
+            /!\ Le site est en cours de développement /!\
           </div>
           <div>
           <ul>Liens utiles</ul>
@@ -19,7 +19,7 @@ export default class Home extends React.Component {
           </div>
           <div>
             <h2>Bienvenue sur mon site !</h2>
-            <p>Il me sert de vitrine afin de représenter ma personnalité, mon savoir-faire accéder aux liens utils (linkedin, github ou bien télécharger mon CV) et pouvoir me contacter facilement.
+            <p>Il me sert de vitrine afin de représenter ma personnalité, mon savoir-faire, accéder aux liens utils (linkedin, github ou bien télécharger mon CV) et pouvoir me contacter facilement.
               Je vous remercie de votre visite !
             </p>
           </div>
